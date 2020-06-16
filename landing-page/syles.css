@@ -1,0 +1,203 @@
+/*resetting margins to look better*/
+* {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+body {
+    background-color: #f7f7ff;
+    color: #333131;
+    font-family: 'Montserrat';
+
+}
+
+/*Modifying logo*/
+
+.logo {
+    
+    width: 50px;
+    height: 50px;
+    
+    
+
+}
+
+/*Main + adding background image*/
+
+
+.main {
+    background-image: url(images/bg-image/scooter.svg);
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: center 30vh;
+    background-size: 40%;
+
+    margin: 0 auto;
+    max-width: 80%;
+
+}
+
+
+
+
+
+.title {
+    font-size: 2.5rem;
+}
+
+/*Making contact form centered*/
+
+.contact {
+    display: grid;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #888888;
+    margin: 30vh 0px 10vh 0px;
+    background-color: white;
+    padding: 3%;
+}
+
+.contact h3 {
+    padding-bottom: 10px;
+
+}
+
+/*Modifying items within contact form to look better*/
+
+.contact input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 2px 0;
+    background-color: #f7f7ff;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contact button {
+    background-color: #57eeab;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.contact-form {
+    display: inline-block;
+
+}
+
+.applied {
+    font-size: 0.7em;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.status {
+    color: red;
+}
+
+/*Footer*/
+
+footer {
+    background-color: #fffd8c;
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.footer-text {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px 0px 10px 20px;
+
+}
+
+footer h4 {
+    padding: 0px 0px 10px 0px;
+}
+
+/*Modifying items within footer to look better*/
+
+.calculator {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: auto;
+    grid-column-gap: 10px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.calculator-input[type=text] {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 2px 0;
+    background-color: #f7f7ff;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.calculator button {
+    background-color: #ff8480;
+    color: white;
+    border-radius: 4px;
+    margin: 2px 0;
+    border: none;
+    padding: 0;
+    font-weight: bold;
+    font-size: 1.2em;
+    box-sizing: border-box;
+
+}
+
+/*Changing icons to fit page better*/
+
+.icons-group {
+    font-size: 2em;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.icons i {
+    padding: 0px 10px;
+}
+
+@media (min-width:720px) {
+    .main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 16vw;
+        justify-items: center;
+        align-items: center;
+    }
+    
+    .logo{
+        top: 1vh;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .calculator {
+        padding-bottom: 2vh;
+
+
+    }
+
+    .icons-group {
+        display: grid;
+        justify-content: right;
+        align-items: center;
+        padding: 0 5vw 0 10px;
+    }
+}
