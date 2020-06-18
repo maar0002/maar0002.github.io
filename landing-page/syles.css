@@ -183,6 +183,10 @@ footer h4 {
         top: 1vh;
     }
 
+    .title{
+        font-size: 3em;
+    }
+
     footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
