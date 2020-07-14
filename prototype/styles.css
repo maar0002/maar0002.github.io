@@ -1,0 +1,609 @@
+/*Global Changes*/
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo {
+    width: 16%;
+    padding-left: 42%;
+}
+
+/*Modifying Nav*/
+
+nav {
+    display: grid;
+    background-color: #3C3B3A;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 10px 0;
+    font-size: 1rem;
+
+}
+
+nav li {
+    color: white;
+    padding: 5px;
+
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+nav li a.active {
+    font-size: 1.5rem;
+}
+
+/*Modifying button to top*/
+
+footer .goToTop {
+    text-align: right;
+    padding-right: 10px;
+    color: white;
+    font-size: 30px;
+
+}
+
+.goToTop a {
+    text-decoration: none;
+}
+
+/*HomePage*/
+
+.discover-top {
+    max-width: 80%;
+    margin-left: 10%;
+}
+
+/*h2*/
+
+h2 {
+    font-size: 3rem;
+}
+
+/*Adding Button*/
+
+.start {
+    background-color: #26A682;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-left: 10%;
+    max-width: 80%;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 1px grey;
+}
+
+/*Modifying content within top of home*/
+
+.discover-img {
+    max-width: 60%;
+    margin-left: 20%;
+    margin-bottom: 10px;
+}
+
+.school-img {
+    width: 100%;
+    max-height: 40vh;
+}
+
+.learn {
+    background-color: #26A682;
+    color: white;
+    text-align: center;
+    margin-left: 60%;
+    max-width: 30%;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 1px grey;
+}
+
+/*Second Part of Home*/
+
+.discover-second-text {
+    max-width: 80%;
+    margin-left: 10%;
+}
+
+/*Third part of Home*/
+
+.discover-third {
+    padding: 10px 0 10px 0;
+    background-color: #3C3B3A;
+    color: white;
+    text-align: center;
+}
+
+.discover-third h3 {
+    max-width: 50%;
+    margin-left: 25%;
+}
+
+.discover-third p {
+    text-align: left;
+    max-width: 80%;
+    margin-left: 10%;
+}
+
+.simon-img {
+    max-width: 50%;
+    border-radius: 50%;
+
+}
+
+/*Last Part of Home*/
+
+.entertainment-img {
+    max-width: 100%;
+}
+
+.discover-last-text {
+    max-width: 80%;
+    margin-left: 10%;
+}
+
+footer {
+    color: white;
+    background-color: #3C3B3A;
+    text-align: center;
+    padding: 10px 0 10px 10px;
+    ;
+}
+
+/*@media 768px + horizontal nav*/
+
+@media (min-width:768px) {
+    .logo {
+        display: inline;
+        float: left;
+        padding-left: 10%;
+        width: 10vh;
+    }
+
+    nav {
+        display: inline-block;
+        width: 100%;
+    }
+
+    nav ul {
+        text-align: center;
+        margin-left: 70vw;
+    }
+
+    nav li {
+        display: inline;
+        float: left;
+        margin-top: 2vh;
+        margin-right: 1vw;
+
+
+    }
+
+    nav li a.active {
+        font-size: 1rem;
+    }
+
+    .discover-img {
+        height: 70vh;
+        margin-bottom: 0;
+    }
+
+    .start {
+        width: 30%;
+        margin-left: 35%;
+    }
+
+    .school-img {
+        max-height: 30vh;
+    }
+
+    /*changing content to grid*/
+
+    .discover-third {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .simon-img {
+        max-width: 30%;
+    }
+
+    .entertainment-img {
+        height: 50vh;
+        width: 100%;
+    }
+}
+
+/*@media 1080 with different grids*/
+
+@media (min-width:1080px) {
+    .top {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .discover-second {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .school-img {
+        margin-top: 15vh;
+    }
+
+    .discover-last {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .entertainment-img {
+        margin-top: 5vh;
+    }
+}
+
+
+/*About*/
+
+.about {
+    display: inline-block;
+}
+
+.top-about {
+    max-width: 80%;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+
+.construction-img {
+    max-width: 100%;
+}
+
+.about-img {
+    width: 100%;
+    height: 60vh;
+}
+
+.about-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
+.centered {
+    position: absolute;
+    top: 40%;
+    bottom: 50%;
+    left: 40%;
+    font-size: 3rem;
+
+}
+
+.second-about {
+    max-width: 80%;
+    margin-left: 10%;
+}
+
+.services-img {
+    width: 100%;
+    height: 60vh;
+}
+
+.services-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.third-about {
+    max-width: 80%;
+    margin-left: 10%;
+}
+
+.bar-img {
+    display: none;
+}
+
+
+
+.fourth-about {
+    max-width: 80%;
+    margin-left: 10%;
+}
+
+.bowling-img {
+    display: none;
+}
+
+.fifth-about {
+    max-width: 80%;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+.fitness-img {
+    display: none;
+}
+
+.sixth-about {
+    max-width: 80%;
+    margin-left: 10%;
+
+}
+
+.climbing-img {
+    display: none;
+}
+
+.newsletter {
+    background-color: #3C3B3A;
+    color: white;
+    text-align: center;
+}
+
+.subscribe {
+    background-color: #26A682;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.2rem;
+}
+
+.thanks {
+    text-align: center;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+
+.thanks-logos img {
+    max-width: 80%;
+}
+
+/*@media 768 + grid*/
+/*Displaying extra images*/
+
+@media (min-width: 768px) {
+    .bar-img {
+        display: block;
+        max-width: 80%;
+        height: 40vh;
+    }
+
+    .third-about {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-column-gap: 5vw;
+    }
+
+    .bowling-img {
+        display: block;
+        max-width: 80%;
+        height: 40vh;
+    }
+
+    .newsletter {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        margin-top: 10px;
+    }
+
+    .newsletter p {
+        margin-top: 20px;
+    }
+
+    .subscribe {
+        margin-top: 8px;
+    }
+
+    .fourth-about {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-column-gap: 5vw;
+    }
+
+    .fitness-img {
+        display: grid;
+        max-width: 80%;
+        height: 40vh;
+    }
+
+    .fifth-about {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-column-gap: 5vw;
+    }
+
+    .climbing-img {
+        display: block;
+        max-width: 80%;
+        height: 40vh;
+    }
+
+    .sixth-about {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-column-gap: 5vw;
+    }
+
+    .thanks-logos {
+        max-width: 60%;
+        margin-left: 20%;
+    }
+}
+
+/*@media + styling grid differently*/
+
+@media (min-width: 1080px) {
+    .top-about {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 3vw;
+    }
+
+    .second-about {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 3vw;
+    }
+
+    .third-about {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .bar-img {
+        width: 100%;
+    }
+
+    .fourth-about {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .bowling-img {
+        width: 100%;
+    }
+
+    .fifth-about {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .fitness-img {
+        width: 100%;
+    }
+
+    .sixth-about {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .climbing-img {
+        width: 100%;
+    }
+
+    .thanks-logos {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 100%;
+    }
+}
+
+
+
+/*Contact*/
+.contact-top {
+    max-width: 80%;
+    margin-left: 10%;
+}
+
+
+/*Contact Form Image*/
+
+.contact-img {
+    max-width: 80%;
+    margin-left: 10%;
+}
+
+/*Contact Form*/
+
+
+.contact-form {
+    background-color: #26A682;
+    max-width: 80%;
+    margin-left: 8%;
+    border-radius: 10%;
+    color: white;
+    padding: 5%;
+    margin-top: 1rem;
+}
+
+.contact-form h3 {
+    font-size: 2rem;
+    margin: 0 0 10px 0;
+}
+
+.contact-form input[type=text],
+input[type=number] {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 2px 0;
+    background-color: #f7f7ff;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    background-color: #3C3B3A;
+    color: white;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/*Contact Info*/
+
+.contact-info {
+    max-width: 80%;
+    margin-left: 10%;
+}
+
+/*Contact Maps*/
+
+.contact-maps {
+    margin: 0;
+}
+
+iframe {
+    width: 100%;
+}
+
+/*@media 768*/
+
+@media (min-width:768px) {
+    .contact-img {
+        max-width: 70%;
+        margin-left: 15%;
+    }
+
+    .contact-form {
+        max-width: 60%;
+        margin-left: 18%;
+    }
+
+}
+
+/*@media 1080 + grid layout*/
+
+@media (min-width:1080px) {
+    #contact-col1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contact-bottom {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 10vh;
+    }
+
+    .contact-maps {
+        height: 60vh;
+        margin-top: 30%;
+    }
+}
