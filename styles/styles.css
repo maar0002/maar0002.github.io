@@ -1,0 +1,200 @@
+/*Global Changes*/
+
+* {
+    font-family: sans-serif;
+    list-style: none;
+    padding: 0;
+}
+
+body {
+    background-color: #333;
+    color: white;
+}
+
+/*Home*/
+
+.intro-title {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.intro h2 {
+    text-align: center;
+}
+
+.intro-img {
+    max-width: 100%;
+    align-content: center;
+}
+
+.student-text {
+    text-align: center;
+}
+
+.skills {
+    max-width: 70%;
+    margin: 60px auto;
+    color: white;
+}
+
+.skills li {
+    margin: 20px 0;
+}
+
+.bar {
+    background: #353b48;
+    display: block;
+    height: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    box-shadow: 0 0 10px #2187e7b3;
+
+}
+
+.bar span {
+    height: 2px;
+    float: left;
+    background: #2187e7;
+}
+
+.html {
+    width: 90%;
+    animation: progress 2s;
+}
+
+.css {
+    width: 85%;
+    animation: progress 2s;
+}
+
+.bootstrap {
+    width: 70%;
+    animation: progress 2s;
+}
+
+.illustrator {
+    width: 80%;
+    animation: progress 2s;
+}
+
+.photoshop {
+    width: 85%;
+    animation: progress 2s;
+}
+
+@keyframes progress {
+    0% {
+        width: 0%;
+    }
+}
+
+
+
+/*Graphics*/
+
+.art {
+    display: grid;
+    text-align: center;
+}
+
+.photoshop-img {
+    max-width: 100%;
+}
+
+.illustrator-img {
+    max-width: 100%;
+}
+
+
+
+
+footer {
+    color: white;
+    background-color: #3C3B3A;
+    text-align: center;
+    padding: 10px 0 10px 10px;
+}
+
+/*Websites*/
+
+.websites {
+    display: grid;
+    grid-row-gap: 4vh;
+}
+
+.website-1 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.website-2 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.website-3 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered p {
+    color: black;
+    opacity: 1;
+    font-size: 2rem;
+}
+
+.websites img {
+    opacity: 1;
+    max-width: 100%;
+}
+
+.websites img:hover {
+    opacity: .5;
+}
+
+
+/*About*/
+
+.about-me {
+    text-align: center;
+}
+
+.about-image {
+    max-width: 60%;
+}
+
+/*Media 768px*/
+
+@media (min-width:768px) {
+    .art {
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 1rem;
+    }
+
+    .intro-img {
+        height: 40vh;
+    }
+
+    .websites {
+        margin-top: 20px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .websites img {
+        max-height: 50vh;
+        width: 45vw;
+    }
+
+
+}
