@@ -13,6 +13,9 @@ body {
 
 /*Home*/
 
+.centered .name{
+    color: white;
+}
 .intro-title {
     position: relative;
     text-align: center;
